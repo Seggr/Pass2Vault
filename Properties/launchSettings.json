@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "Pass2Vault": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "AZURE_CLIENT_ID": "",
+        "AZURE_TENANT_ID": "",
+        "AZURE_CLIENT_SECRET": "",
+        "AZURE_VAULT_NAME":""
+      }
+    }
+  }
+}

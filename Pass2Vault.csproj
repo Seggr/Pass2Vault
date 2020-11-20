@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Pass2Vault-8B4B85A3-0D55-4976-ABF0-8D6C23A58E5A</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.1"/>
+    <PackageReference Include="Azure.Identity" Version="1.4.0-beta.1"/>
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.2.0-beta.3"/>
+  </ItemGroup>
+</Project>
